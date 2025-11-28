@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <style>
+.cv-link {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cv-link:hover {
+    color: white;
+    background: aqua;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+        body { font-family: Arial; margin: 0; padding: 0; }
+        header { background: #000; padding: 20px; }
+        header a { margin-right: 20px; color: aqua; font-weight: bold; text-decoration: none; }
+        section { padding: 30px; }
+        h2 { color: aqua; }
+        .avatar { float: right; width: 150px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#projets">Mes projets</a>
+    <a href="#competences">Compétences</a>
+    <a href="#contact">Contact</a>
+</header>
+
+<section id="accueil">
+    <h2 style="color:aqua;">Accueil</h2>
+    <p>Bienvenue sur mon portfolio.</p>
+</section>
+
+<section id="apropos">
+    <h2 style="color:aqua;">À propos</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" class="avatar" style="width:180px; border-radius:50%;">
+
+
+
+
+    <p style="color:aqua;">Bonjour, je suis Scrilanka Paul , une developpeuse Web passionée par la création des sites web pour les entreprises et aussi par l'univers de la technologie et principalement au developpement web <span style="color:aqua;"></span></p>
+    <a href="cv.pdf"class="cv-link> style="color:aqua;">Télécharger mon CV</a>
+</section>
+
+<section id="projets">
+    <h2 style="color:aqua;">Mes projets</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" class="avatar" style="width:180px; border-radius:50%;">
+
+
+
+
+    <ul>
+        <li>Projet 1 - <a style="color:aqua;" href="#">Voir</a></li>
+        <li>Projet 2 - <a style="color:aqua;" href="#">Voir</a></li>
+        <li>Projet 3 - <a style="color:aqua;" href="#">Voir</a></li>
+    </ul>
+</section>
+
+<section id="competences">
+    <h2 style="color:aqua;">Mes compétences</h2>
+    <div style="display:flex; gap:50px;">
+        <div>
+            <h3 style="color:gray;">Soft Skills</h3>
+            <ul>
+                <li>Communication</li>
+                <li>Esprit d'équipe</li>
+                <li>Créativité</li>
+                <li>Leadership</li>
+                <li>Organisation</li>
+                <li>Résolution de problèmes</li>
+            </ul>
+        </div>
+        <div>
+            <h3 style="color:aqua;">Hard Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>Git</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 style="color:aqua;">Vous avez un projet en tête ?</h2>
+    <p style="color:aqua;">N'hésitez pas à me contacter</p>
+    <form>
+        
+<input type="text" placeholder="Prénom"><br><br>
+        <input type="text" placeholder="Nom"><br><br>
+<input type="text" placeholder="Sujet"><br><br>
+        <textarea placeholder="Message"></textarea><br><br>
+        <button style="background:aqua; padding:10px 20px; border:none;">Envoyer</button>
+    </form>
+</section>
+
+<footer style="background:#000; color:white; padding:15px; display:flex; justify-content:space-between;">
+    <span>HTML, CSS, JS</span>
+    <span>Tous droits réservés - 2025 — Design by <span style="color:aqua;">Scrilanka Paul</span></span>
+<a href="mailto:scrilankapaul@gmail.com" style="color:aqua; text-decoration:none;">scrilankapaul@gmail.com</a>
+    </span>
+</footer>
+
+</body>
+</html>
